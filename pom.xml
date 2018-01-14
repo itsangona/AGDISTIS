@@ -14,8 +14,8 @@
                 <version>3.6.0</version>
                 <configuration>
                     <argLine>-Xmx6G</argLine>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
@@ -69,13 +69,13 @@
     </build>
     <!-- PROPERTIES -->
     <properties>
-        <java.version>1.6</java.version>
+        <java.version>1.9</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <mavenVersion>4.0</mavenVersion>
+        <mavenVersion>3.5.2</mavenVersion>
     </properties>
     <prerequisites>
-        <maven>${maven.version}</maven>
+        <maven>3.5.2</maven>
     </prerequisites>
     <repositories>
         <repository>
